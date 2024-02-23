@@ -1,0 +1,78 @@
+div{
+    background-image: url(samsung\ photo.jpg);
+    background-position: left;
+    color: white;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+
+table th td{
+    border-collapse: collapse;
+    padding: 20px;
+}
+
+.wrapper-main{
+    width: 900px;
+    margin: 0 auto;   
+}
+table{
+    width: 40%;
+    height: 100px;
+    
+    
+}
+th{
+    font-weight: bold;
+    border: 2px solid darkblue;
+    height: 50px;
+    
+}
+td{
+    border: 2px solid darkblue;
+    width: fit-content;
+    height: fit-content;
+
+
+}
+table th td:nth-child(2){
+    width: 400px;
+    
+}
+
+table th td:nth-child(2){
+    width: 400px;
+}
+table tr:nth-child(even){
+    background-color:gray
+
+}
+tr{
+    align-content: center;
+}
+
+a{
+  background-color: lightblue;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  align-content: center;
+  margin-right: auto;
+}
+p{
+    text-align: center;
+    text-overflow: clip;
+}
+h1{
+    text-align: center;
+}
+h3{
+    text-align: left;
+    text-size-adjust: 200px;
+}
